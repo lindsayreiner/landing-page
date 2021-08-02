@@ -46,6 +46,7 @@ h1 {
     display: inline-block;
     font-family: 'Style Script', cursive;
     font-size: 35px;
+    
 }
 
 a {
@@ -61,8 +62,9 @@ a {
 }
 
 .coming-soon {
-    padding: 200px;
+    position: relative;
     border-style: solid;
+    border-width: 15px;
 }
 
 .content {
@@ -73,18 +75,18 @@ a {
 .footer {
     text-align: center;
     padding: 0px;
-    background: color #b3629a;
+    background-color: rgb(244, 240, 231);
 }
 
 .container {
-    padding: 75px;
-    background: color #b3629a;
+    padding: 60px;
+    background-color: rgb(244, 240, 231);
 }
 
 .contact {
     font-size: 25px;
     padding: 35px;
-    background: color #b3629a;
+    background-color: rgb(244, 240, 231);
 }
 
 .copyright {
