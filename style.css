@@ -102,6 +102,10 @@ li {
    padding: 20px;
 }
 
+.submit-pointer {
+    cursor: pointer;
+}
+
 .copyright {
     background-color: rgb(168, 86, 143); 
     padding: 20px;
