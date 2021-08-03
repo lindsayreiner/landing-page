@@ -2,7 +2,8 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,51 +26,49 @@
                     <a href="https://github.com/lindsayreiner">GitHub</a>
                 </li>
                 <li>
-                    <a href="https://github.com/lindsayreiner">Portfolio</a>
+                    <a href="#">Portfolio</a>
                 </li>
                 <li>
-                    <a href="https://github.com/lindsayreiner">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     
         
-    <article class='website-name'><h2>My New Website</h2>
-        <section class='coming-soon'>Coming Soon</section>
-        <section class='coming-soon-2'></section>
+    <main>
+      <h2 class='website-name'>My New Website</h2>
+       <img src="images/image-1.png" alt="Coming Soon">
         
-        <section class='content'>
+        <figcaption class='caption'>
             <p>Cauliflower cheese cheese and biscuits manchego.</p>
         </section>
-    </article>
+    </main>
 
 
 
 <footer class='footer'>
 
-    <div class="container">
-        <p class="contact"><strong>Contact Me</strong></p>
-        <form action="action_page.php">
-      
-          <label for="name">Name</label>
-          <input type="text" id="fname" name="name" placeholder="Your name..">
-
-      
-          <label for="email">email</label>
-          <input type="text" id="email" name="email" placeholder="Your email..">
+    <div class="footer-container">
+        <p id="contact"><strong>Contact Me</strong></p>
+        <form class="form" action="action_page.php">
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="fname" name="name" placeholder="Your name..">
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+            </li>
           </select>
-      
+           </ul>   
+          <div class="submit">
           <input type="submit" value="Submit">
-      
-        </form>
-      </div>
-    
-    
-    
+          </div>
+        </form>    
     
     <p class="copyright">&copy; 2021 My New Website Productions</p>
-
 
 </footer>
 
